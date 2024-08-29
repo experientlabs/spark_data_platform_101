@@ -2,6 +2,7 @@
 
 # Function to start Jupyter Notebook
 start_jupyter() {
+    echo "Starting Spark History Server..."
     echo "Starting Jupyter Notebook..."
     $SPARK_HOME/sbin/start-history-server.sh && jupyter notebook --ip=0.0.0.0 --port=4041 --no-browser --NotebookApp.token='' --NotebookApp.password=''
 }

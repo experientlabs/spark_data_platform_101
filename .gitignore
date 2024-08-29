@@ -2,3 +2,5 @@ app/.ipynb_checkpoints
 app/event_logs
 downloads
 .idea
+event_logs
+logs
